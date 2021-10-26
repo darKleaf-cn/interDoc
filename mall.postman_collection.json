@@ -1,0 +1,151 @@
+{
+	"info": {
+		"_postman_id": "02c6bb3d-1c47-456d-8d7e-793e62062228",
+		"name": "mall",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "user/userinfo",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{url}}/user/userinfo",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"user",
+						"userinfo"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "user/userinfo",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{url}}/user/userinfo",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"user",
+								"userinfo"
+							]
+						}
+					},
+					"_postman_previewlanguage": "json",
+					"header": null,
+					"cookie": [],
+					"body": "{\r\n\t\"code\":200,\r\n\t\"message\":\"\",\r\n\t\"result\":{\r\n\t\t\"userid\":1,\r\n\t\t\"token\":\"\",\r\n        \"state\":0\r\n\t}\r\n}"
+				}
+			]
+		},
+		{
+			"name": "user/login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/user/login",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"user",
+						"login"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "user/login",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/user/login",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"user",
+								"login"
+							]
+						}
+					},
+					"_postman_previewlanguage": "json",
+					"header": null,
+					"cookie": [],
+					"body": "{\n    \"code\": 200,\n    \"message\": \"sdasda\",\n    \"result\": {\n        \"userid\": 1,\n        \"token\": \"stfdfdsfsdffs\",\n        \"state\": 1\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "user/register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/user/register",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"user",
+						"register"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "user/register",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/user/register",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"user",
+								"register"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": "{\r\n    \"code\": 200,\r\n    \"message\": \"232323\",\r\n    \"result\": {\r\n        \"userid\": 1,\r\n        \"token\": \"stfdfdsfsdffs\",\r\n        \"state\": 1\r\n    }\r\n}"
+				}
+			]
+		}
+	]
+}
