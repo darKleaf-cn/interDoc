@@ -63,7 +63,7 @@
 					"_postman_previewlanguage": "json",
 					"header": null,
 					"cookie": [],
-					"body": "{\r\n\t\"code\":200,\r\n\t\"message\":\"\",\r\n\t\"result\":{\r\n\t\t\"userid\":1,\r\n\t\t\"token\":\"\",\r\n        \"state\":0\r\n\t}\r\n}"
+					"body": "{\r\n\t\"code\":100,\r\n\t\"message\":\"\",\r\n\t\"result\":{\r\n\t\t\"userid\":1,\r\n\t\t\"token\":\"\",\r\n        \"state\":0\r\n\t}\r\n}"
 				}
 			]
 		},
@@ -144,6 +144,126 @@
 					"header": null,
 					"cookie": [],
 					"body": "{\r\n    \"code\": 200,\r\n    \"message\": \"232323\",\r\n    \"result\": {\r\n        \"userid\": 1,\r\n        \"token\": \"stfdfdsfsdffs\",\r\n        \"state\": 1\r\n    }\r\n}"
+				}
+			]
+		},
+		{
+			"name": "book/home",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/book/home",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"book",
+						"home"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "book/home",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/book/home",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"book",
+								"home"
+							]
+						}
+					},
+					"_postman_previewlanguage": "json",
+					"header": null,
+					"cookie": [],
+					"body": "{\r\n\t\"code\": 200,\r\n\t\"message\": \"232323\",\r\n\t\"result\": {\r\n\t\t\"data\": [\r\n\t\t\t{\r\n\t\t\t\t\"type\":\"军事\",\r\n\t\t\t\t\"data\":[\r\n\t\t\t\t\t{\r\n\t\t\t\t\t\t\"bookid\":1,\r\n\t\t\t\t\t\t\"name\":\"一本书\",\r\n\t\t\t\t\t\t\"image\":\"https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimage31.bookschina.com%2F2009%2F20091207%2Fs693406.jpg&refer=http%3A%2F%2Fimage31.bookschina.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1637891950&t=ce848c834012df4aea6052377076252d\",\r\n\t\t\t\t\t\t\"price\":133,\r\n\t\t\t\t\t\t\"describe\":\"一本书的描述\",\r\n\t\t\t\t\t\t\"type\":\"军事\"\r\n\t\t\t\t\t},\r\n\t\t\t\t\t{\r\n\t\t\t\t\t\t\"bookid\":2,\r\n\t\t\t\t\t\t\"name\":\"一本书\",\r\n\t\t\t\t\t\t\"image\":\"https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fpic2.cxtuku.com%2F00%2F08%2F54%2Fb525d72e4a18.jpg&refer=http%3A%2F%2Fpic2.cxtuku.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1637892462&t=776a6dfc1ba71792141cf5124a461083\",\r\n\t\t\t\t\t\t\"price\":133,\r\n\t\t\t\t\t\t\"describe\":\"一本书的描述\",\r\n\t\t\t\t\t\t\"type\":\"军事\"\r\n\t\t\t\t\t},\r\n\t\t\t\t\t{\r\n\t\t\t\t\t\t\"bookid\":3,\r\n\t\t\t\t\t\t\"name\":\"一本书\",\r\n\t\t\t\t\t\t\"image\":\"https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimage31.bookschina.com%2F2009%2F20091207%2Fs693406.jpg&refer=http%3A%2F%2Fimage31.bookschina.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1637891950&t=ce848c834012df4aea6052377076252d\",\r\n\t\t\t\t\t\t\"price\":133,\r\n\t\t\t\t\t\t\"describe\":\"一本书的描述\",\r\n\t\t\t\t\t\t\"type\":\"军事\"\r\n\t\t\t\t\t},\r\n\t\t\t\t\t{\r\n\t\t\t\t\t\t\"bookid\":4,\r\n\t\t\t\t\t\t\"name\":\"一本书\",\r\n\t\t\t\t\t\t\"image\":\"https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimage31.bookschina.com%2F2009%2F20091207%2Fs693406.jpg&refer=http%3A%2F%2Fimage31.bookschina.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1637891950&t=ce848c834012df4aea6052377076252d\",\r\n\t\t\t\t\t\t\"price\":133,\r\n\t\t\t\t\t\t\"describe\":\"一本书的描述\",\r\n\t\t\t\t\t\t\"type\":\"军事\"\r\n\t\t\t\t\t}\r\n\t\t\t\t]\r\n\t\t\t},\r\n\t\t\t{\r\n\t\t\t\t\"type\":\"艺术\",\r\n\t\t\t\t\"data\":[\r\n\t\t\t\t\t{\r\n\t\t\t\t\t\t\"bookid\":5,\r\n\t\t\t\t\t\t\"name\":\"一本书\",\r\n\t\t\t\t\t\t\"image\":\"https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimage31.bookschina.com%2F2009%2F20091207%2Fs693406.jpg&refer=http%3A%2F%2Fimage31.bookschina.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1637891950&t=ce848c834012df4aea6052377076252d\",\r\n\t\t\t\t\t\t\"price\":133,\r\n\t\t\t\t\t\t\"describe\":\"一本书的描述\",\r\n\t\t\t\t\t\t\"type\":\"艺术\"\r\n\t\t\t\t\t},\r\n\t\t\t\t\t{\r\n\t\t\t\t\t\t\"bookid\":6,\r\n\t\t\t\t\t\t\"name\":\"一本书\",\r\n\t\t\t\t\t\t\"image\":\"https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimage31.bookschina.com%2F2009%2F20091207%2Fs693406.jpg&refer=http%3A%2F%2Fimage31.bookschina.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1637891950&t=ce848c834012df4aea6052377076252d\",\r\n\t\t\t\t\t\t\"price\":133,\r\n\t\t\t\t\t\t\"describe\":\"一本书的描述\",\r\n\t\t\t\t\t\t\"type\":\"艺术\"\r\n\t\t\t\t\t},\r\n\t\t\t\t\t{\r\n\t\t\t\t\t\t\"bookid\":7,\r\n\t\t\t\t\t\t\"name\":\"一本书\",\r\n\t\t\t\t\t\t\"image\":\"https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimage31.bookschina.com%2F2009%2F20091207%2Fs693406.jpg&refer=http%3A%2F%2Fimage31.bookschina.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1637891950&t=ce848c834012df4aea6052377076252d\",\r\n\t\t\t\t\t\t\"price\":133,\r\n\t\t\t\t\t\t\"describe\":\"一本书的描述\",\r\n\t\t\t\t\t\t\"type\":\"艺术\"\r\n\t\t\t\t\t},\r\n\t\t\t\t\t{\r\n\t\t\t\t\t\t\"bookid\":8,\r\n\t\t\t\t\t\t\"name\":\"一本书\",\r\n\t\t\t\t\t\t\"image\":\"https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimage31.bookschina.com%2F2009%2F20091207%2Fs693406.jpg&refer=http%3A%2F%2Fimage31.bookschina.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1637891950&t=ce848c834012df4aea6052377076252d\",\r\n\t\t\t\t\t\t\"price\":133,\r\n\t\t\t\t\t\t\"describe\":\"一本书的描述\",\r\n\t\t\t\t\t\t\"type\":\"艺术\"\r\n\t\t\t\t\t}\r\n\t\t\t\t]\r\n\t\t\t}\r\n\t\t]\r\n\t}\r\n}"
+				}
+			]
+		},
+		{
+			"name": "book/detail",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/book/detail",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"book",
+						"detail"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "book/detail",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/book/detail",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"book",
+								"detail"
+							]
+						}
+					},
+					"_postman_previewlanguage": "json",
+					"header": null,
+					"cookie": [],
+					"body": "{\r\n\t\"code\": 200,\r\n\t\"message\": \"232323\",\r\n\t\"result\": {\r\n\t\t\"bookid\": 1,\r\n\t\t\"name\": \"一本书\",\r\n\t\t\"image\": \"https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimage31.bookschina.com%2F2009%2F20091207%2Fs693406.jpg&refer=http%3A%2F%2Fimage31.bookschina.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1637891950&t=ce848c834012df4aea6052377076252d\",\r\n\t\t\"price\": 133,\r\n\t\t\"describe\": \"一本书的描述\",\r\n\t\t\"type\": \"军事\",\r\n\t\t\"imageSmall\":[\r\n\t\t\t\"https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimage31.bookschina.com%2F2009%2F20091207%2Fs693406.jpg&refer=http%3A%2F%2Fimage31.bookschina.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1637891950&t=ce848c834012df4aea6052377076252d\"\r\n\t\t],\r\n\t\t\"detail\":\"https://img.alicdn.com/imgextra/i1/1049653664/O1CN01ozduA11cw9si57N5d_!!1049653664.jpg\"\r\n\t}\r\n}"
+				}
+			]
+		},
+		{
+			"name": "book/queryList",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/book/queryList",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"book",
+						"queryList"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "book/queryList",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/book/queryList",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"book",
+								"queryList"
+							]
+						}
+					},
+					"_postman_previewlanguage": "json",
+					"header": null,
+					"cookie": [],
+					"body": "{\r\n\t\"code\": 200,\r\n\t\"message\": \"232323\",\r\n\t\"result\": {\r\n\t\t\"total\": 20,\r\n\t\t\"data\": [\r\n\t\t\t{\r\n\t\t\t\t\"bookid\": 5,\r\n\t\t\t\t\"name\": \"一本书\",\r\n\t\t\t\t\"image\": \"https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimage31.bookschina.com%2F2009%2F20091207%2Fs693406.jpg&refer=http%3A%2F%2Fimage31.bookschina.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1637891950&t=ce848c834012df4aea6052377076252d\",\r\n\t\t\t\t\"price\": 133,\r\n\t\t\t\t\"describe\": \"一本书的描述\",\r\n\t\t\t\t\"type\": \"艺术\"\r\n\t\t\t},\r\n\t\t\t{\r\n\t\t\t\t\"bookid\": 6,\r\n\t\t\t\t\"name\": \"一本书\",\r\n\t\t\t\t\"image\": \"https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimage31.bookschina.com%2F2009%2F20091207%2Fs693406.jpg&refer=http%3A%2F%2Fimage31.bookschina.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1637891950&t=ce848c834012df4aea6052377076252d\",\r\n\t\t\t\t\"price\": 133,\r\n\t\t\t\t\"describe\": \"一本书的描述\",\r\n\t\t\t\t\"type\": \"艺术\"\r\n\t\t\t},\r\n\t\t\t{\r\n\t\t\t\t\"bookid\": 7,\r\n\t\t\t\t\"name\": \"一本书\",\r\n\t\t\t\t\"image\": \"https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimage31.bookschina.com%2F2009%2F20091207%2Fs693406.jpg&refer=http%3A%2F%2Fimage31.bookschina.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1637891950&t=ce848c834012df4aea6052377076252d\",\r\n\t\t\t\t\"price\": 133,\r\n\t\t\t\t\"describe\": \"一本书的描述\",\r\n\t\t\t\t\"type\": \"艺术\"\r\n\t\t\t},\r\n\t\t\t{\r\n\t\t\t\t\"bookid\": 8,\r\n\t\t\t\t\"name\": \"一本书\",\r\n\t\t\t\t\"image\": \"https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimage31.bookschina.com%2F2009%2F20091207%2Fs693406.jpg&refer=http%3A%2F%2Fimage31.bookschina.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1637891950&t=ce848c834012df4aea6052377076252d\",\r\n\t\t\t\t\"price\": 133,\r\n\t\t\t\t\"describe\": \"一本书的描述\",\r\n\t\t\t\t\"type\": \"艺术\"\r\n\t\t\t},\r\n\t\t\t{\r\n\t\t\t\t\"bookid\": 1,\r\n\t\t\t\t\"name\": \"一本书\",\r\n\t\t\t\t\"image\": \"https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimage31.bookschina.com%2F2009%2F20091207%2Fs693406.jpg&refer=http%3A%2F%2Fimage31.bookschina.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1637891950&t=ce848c834012df4aea6052377076252d\",\r\n\t\t\t\t\"price\": 133,\r\n\t\t\t\t\"describe\": \"一本书的描述\",\r\n\t\t\t\t\"type\": \"军事\"\r\n\t\t\t},\r\n\t\t\t{\r\n\t\t\t\t\"bookid\": 2,\r\n\t\t\t\t\"name\": \"一本书\",\r\n\t\t\t\t\"image\": \"https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimage31.bookschina.com%2F2009%2F20091207%2Fs693406.jpg&refer=http%3A%2F%2Fimage31.bookschina.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1637891950&t=ce848c834012df4aea6052377076252d\",\r\n\t\t\t\t\"price\": 133,\r\n\t\t\t\t\"describe\": \"一本书的描述\",\r\n\t\t\t\t\"type\": \"军事\"\r\n\t\t\t},\r\n\t\t\t{\r\n\t\t\t\t\"bookid\": 3,\r\n\t\t\t\t\"name\": \"一本书\",\r\n\t\t\t\t\"image\": \"https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimage31.bookschina.com%2F2009%2F20091207%2Fs693406.jpg&refer=http%3A%2F%2Fimage31.bookschina.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1637891950&t=ce848c834012df4aea6052377076252d\",\r\n\t\t\t\t\"price\": 133,\r\n\t\t\t\t\"describe\": \"一本书的描述\",\r\n\t\t\t\t\"type\": \"军事\"\r\n\t\t\t},\r\n\t\t\t{\r\n\t\t\t\t\"bookid\": 4,\r\n\t\t\t\t\"name\": \"一本书\",\r\n\t\t\t\t\"image\": \"https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimage31.bookschina.com%2F2009%2F20091207%2Fs693406.jpg&refer=http%3A%2F%2Fimage31.bookschina.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1637891950&t=ce848c834012df4aea6052377076252d\",\r\n\t\t\t\t\"price\": 133,\r\n\t\t\t\t\"describe\": \"一本书的描述\",\r\n\t\t\t\t\"type\": \"军事\"\r\n\t\t\t}\r\n\t\t]\r\n\t}\r\n}"
 				}
 			]
 		}
