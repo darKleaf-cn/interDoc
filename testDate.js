@@ -177,3 +177,44 @@ const res = {
 		]
 	}
 }
+
+// /cart/cartList
+
+const res = {
+	"code": 200,
+	"message": "232323",
+	"result": {
+		"data": [
+			{
+				"bookId": 5,
+				"cartId": 1,
+				"name": "一本书",
+				"image": "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimage31.bookschina.com%2F2009%2F20091207%2Fs693406.jpg&refer=http%3A%2F%2Fimage31.bookschina.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1637891950&t=ce848c834012df4aea6052377076252d",
+				"price": 133,
+				"describe": "一本书的描述",
+				"type": "艺术",
+				"bookNum": 1
+			},
+			{
+				"bookId": 6,
+				"cartId": 12,
+				"name": "一本书",
+				"image": "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimage31.bookschina.com%2F2009%2F20091207%2Fs693406.jpg&refer=http%3A%2F%2Fimage31.bookschina.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1637891950&t=ce848c834012df4aea6052377076252d",
+				"price": 133,
+				"describe": "一本书的描述",
+				"type": "艺术",
+				"bookNum": 2
+			},
+			{
+				"bookId": 7,
+				"cartId": 14,
+				"name": "一本书",
+				"image": "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimage31.bookschina.com%2F2009%2F20091207%2Fs693406.jpg&refer=http%3A%2F%2Fimage31.bookschina.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1637891950&t=ce848c834012df4aea6052377076252d",
+				"price": 133,
+				"describe": "一本书的描述",
+				"type": "艺术",
+				"bookNum": 1
+			}
+		]
+	}
+}
